@@ -37,7 +37,9 @@ NSInteger count = 0;
     
     [[_backBtn rac_signalForControlEvents:UIControlEventTouchUpInside]subscribeNext:^(id x) {
         [self dismissViewControllerAnimated:YES completion:^{
-            dispatch_cancel(self.time);
+            if (self.time) {
+                dispatch_cancel(self.time);
+            }
         }];
     }];
 }

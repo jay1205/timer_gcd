@@ -514,7 +514,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/JHW/Desktop/JHW_timer/JHW_timer/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JHW_timer/PrefixHeader.pch";
 				INFOPLIST_FILE = JHW_timer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JHW.com.JHW-timer";
@@ -528,7 +528,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/JHW/Desktop/JHW_timer/JHW_timer/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JHW_timer/PrefixHeader.pch";
 				INFOPLIST_FILE = JHW_timer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JHW.com.JHW-timer";
